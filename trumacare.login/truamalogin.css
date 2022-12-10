@@ -82,6 +82,8 @@ body{
 .traumalogin-emailadres{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
     width: 550px;
     height: 40px;
     background-color: #FFFFFF;
