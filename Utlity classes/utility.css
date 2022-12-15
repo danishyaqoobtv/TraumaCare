@@ -1,0 +1,13 @@
+.flex{
+    display: flex;
+}
+.align-items{
+    align-items: center;
+}
+.justify{
+    justify-content: center;
+}
+
+.blue{
+    color:rgba(10, 28, 75, 1);
+}
