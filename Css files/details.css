@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main-header {
+    background-color: rgba(255, 255, 255, 1);
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+
+.float-left {
+    float: left;
+    height: 100%;
+    display: flex;
+    /* border: 1px solid rgb(12, 12, 12); */
+    padding-left: 90px;
+}
+
+
+.logo svg {
+    height: 80px;
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.list-items {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+}
+
+
+.list-items li {
+    list-style: none;
+    margin-right: 40px;
+    color: rgba(10, 28, 75, 0.877);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.list-items li svg {
+    width: 20px;
+    height: 8px;
+    padding-bottom: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-items li:last-child {
+    padding-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+/*  */
+/*  */
+/* float :right */
+/*  */
+/*  */
+/*  */
+
+
+
+
+
+
+
+.float-right {
+    /* height: 100%; */
+    text-align: right;
+    justify-content: end;
+    display: flex;
+    padding-top: 5px;
+    /* border: 1px solid rgb(12, 12, 12); */
+    padding-right: 80px;
+    /* padding-right: 2px; */
+}
+
+
+.logo-paragraph p {
+    font-size: 24px;
+    color: rgba(10, 28, 75, 1);
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-right: 18px;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+}
+
+.svg1 svg {
+    height: 75px;
+    width: 40px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.svg2 svg {
+    height: 75px;
+    width: 39px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.svg3 svg {
+    height: 75px;
+    width: 39px;
+    cursor: pointer;
+}
+
+.main-section {
+    background-color: #0A1C4B;
+    height: 330px;
+    /* max-width: 1800px; */
+}
+
+.max-width {
+    /* max-width: 1000px; */
+    /* width: 50%; */
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.max-width h3,
+p {
+    text-align: center;
+}
+
+.max-width h3 {
+    padding-top: 90px;
+    font-size: 55px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+
+.max-width p {
+    color: rgba(255, 255, 255, 0.678);
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* under vala main */
+/*  */
+/*  */
+/*  */
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+.main-tag {
+    /* border: 1px solid red; */
+    padding: 25px 100px 0px 100px;
+    display: flex;
+    gap: 10px;
+}
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/* left vala */
+/*  */
+/*  */
+/*  */
+/*  */
+
+
+
+
+.main-tag-main1 {
+    /* border: 1px solid green; */
+    width: 290px;
+    margin-right: 10px;
+}
+
+
+
+
+.section-left {
+    /* border: 2px solid red; */
+    height: 1130px;
+    width: 290px;
+    padding-right: 0px;
+    background-color: rgba(255, 255, 255, 0.945);
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.section-left-Doctors {
+    display: flex;
+    background-color: rgba(10, 28, 75, 0.2);
+    justify-content: space-between;
+    padding: 11px 20px;
+    /* width: 280px; */
+    width: 100%;
+}
+
+
+.section-left-Doctors p {
+    color: rgba(36, 208, 208, 0.774);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.section-left-Doctors svg {
+    cursor: pointer;
+}
+
+
+.Psychiatrists-main-div {
+    /* border: 1px solid red; */
+    border-radius: 6px;
+    margin: 11px 15px;
+    /* height: 1000px; */
+}
+
+
+
+
+
+
+
+.Psychiatrists-main-div ul {
+    margin: 0px 13px;
+    margin-top: 0px;
+    /* border: 1px solid red; */
+    padding-top: 0px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+
+}
+
+.Psychiatrists-main-div ul li {
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+    line-height: 38px;
+    color: rgba(10, 28, 75, 1);
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+
+.Psychiatrists-main-div ul li:last-child {
+    background-color: rgba(10, 28, 75, 0.2);
+    padding: 0px;
+    padding: none;
+    color: rgba(36, 208, 208, 1);
+    font-size: 18px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+
+
+.last-ul-border {
+    border: 1px solid rgba(36, 208, 208, 1);
+}
+
+
+.last-li-items {
+    /* border: 1px solid red; */
+    padding: 0px 10px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    margin: 0px 13px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+.last-li-items li {
+    list-style: none;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 3px 0;
+    color: #0A1C4B;
+}
+
+
+
+
+
+
+.Hospitals {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 17px;
+    /* padding-top: 7px; */
+}
+
+.Hospitals svg {
+    cursor: pointer;
+}
+
+
+.Hospitals li {
+    line-height: 35px;
+    list-style: none;
+    cursor: pointer;
+    color: #0A1C4B;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+.right-main {
+    flex: 1;
+    /* border: 1px solid red; */
+}
+
+.right-main-maindiv1 {
+    padding: 15px 35px 30px 35px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.detail-div {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    width: 80px;
+    justify-content: space-between;
+}
+
+.detail-div p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0A1C4B;
+    letter-spacing: 0.5px;
+
+}
+
+.detail-div svg {
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+}
+
+.right-main-vitamin {
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+
+.vitain-img {
+    padding-top: 30px;
+    padding-left: 130px;
+    text-align: center;
+}
+
+.vitain-img img {
+    height: 230px;
+    width: 280px;
+}
+
+.vitain-img h3 {
+    color: #0A1C4B;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 13px;
+}
+
+
+.vitain-img p {
+    color: #0A1C4B;
+    font-size: 15px;
+}
+
+.vitmin-3div {
+    /* border: 1px solid red; */
+    padding-left: 130px;
+    padding-top: 30px;
+
+}
+
+
+.vitmin-3div div {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    padding: 5px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.vitmin-3div div:hover {
+    border: 1px solid rgba(10, 28, 75, 1);
+}
+
+.vitmin-3div div img {
+    width: 76px;
+    height: 60px;
+}
+
+.vitmin-3div div.vitmin-3div-second {
+    border: 1px solid rgba(10, 28, 75, 1);
+}
+
+
+
+.vitmin-3div-third {
+    text-align: left;
+    /* border: 1px solid red; */
+    padding-left: 120px;
+    width: 370px;
+}
+
+.vitmin-3div-third h3 {
+    color: #0A1C4B;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.vitmin-3div-third p {
+    text-align: left;
+    color: #0A1C4B;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.stars {
+    display: flex;
+    gap: 2px;
+    padding-top: 10px;
+}
+
+.stars svg {
+    cursor: pointer;
+}
+
+
+.vitmin-3div-third p.p1 {
+    color: rgba(36, 208, 208, 1);
+    font-size: 20px;
+}
+
+h2 {
+    padding-top: 8px;
+    color: #0A1C4B;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.flex {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 5px;
+}
+
+.flex p {
+    background-color: rgba(36, 208, 208, 0.2);
+    border-radius: 5px;
+    padding: 4px 7px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #0A1C4B;
+}
+
+
+.flex1 {
+    display: flex;
+    gap: 4px;
+    padding-top: 4px;
+}
+
+.flex1 div {
+    padding: 6px 12px;
+    background-color: rgba(10, 28, 75, 0.2);
+    color: #0A1C4B;
+    border-radius: 5px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.flex1 div:first-child {
+    padding: 6px 14px;
+}
+
+.btn-div {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #0A1C4B;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 8px 0px;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.btn-div p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    padding: 0px;
+}
+
+.btn-div svg {
+    height: 17px;
+    width: 17px;
+}
+
+
+p.Instock {
+    margin-top: 15px;
+    padding: 0;
+    background-color: rgba(36, 208, 208, 0.2);
+    border-radius: 5px;
+    padding: 3px 6px;
+    width: 60px;
+    font-weight: 600;
+}
+
+
+p.delevery-p {
+    padding-top: 3px;
+    color: #0A1C4B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right-main-maindiv2 {
+    margin-top: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 0px 10px 50px 35px;
+}
+
+
+.right-main-maindiv2 p{
+    text-align: left;
+    color: #061741;
+    padding-top: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    word-spacing: 1px;
+    padding-bottom: 5px;
+}
