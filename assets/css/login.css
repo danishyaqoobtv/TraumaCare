@@ -1,41 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-body{
+body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 
 
-.main-section{
+.main-section {
     display: flex;
     max-width: 1920px;
     margin: auto;
     height: 937px;
 }
 
-.float-left{
+.float-left {
     height: 100%;
     position: relative;
     width: 47%;
-    background: url(../Images/Rectangle\ 445.png);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgba(10, 28, 75, 1);
 }
 
-.float-left div:first-child{
+.float-left div:first-child {
     position: relative;
 }
 
 
-.float-left div:first-child{
+.float-left div:first-child {
     position: absolute;
     top: 0;
     right: 0;
@@ -47,8 +44,8 @@ body{
 
 
 
-.float-left svg:first-child{
-    top: 300px;
+.float-left svg:first-child {
+    top: 400px;
     position: absolute;
     width: 10px;
     height: 25px;
@@ -264,10 +261,11 @@ a {
 
 
 @media (max-width:700px) {
-    .main-section{
+    .main-section {
         flex-direction: column;
     }
-    .float-left{
+
+    .float-left {
         height: 50%;
         width: 100%;
     }
@@ -279,18 +277,18 @@ a {
     .float-right h2 {
         margin-top: 20px;
     }
-    body{
-    background-color: rgba(245, 245, 245, 1);
+
+    body {
+        background-color: rgba(245, 245, 245, 1);
     }
-    .after-button{
+
+    .after-button {
         padding-bottom: 15px;
     }
-    .float-left svg:first-child{
-        top: 120px;
+
+    .float-left svg:first-child {
+        top: 180px;
         height: 25px;
-    }    
-    .after-button{
-        padding-bottom: 15px;
     }
 }
 
@@ -302,32 +300,37 @@ a {
 
 
 @media (max-width:400px) {
-    .float-left svg:first-child{
+    .float-left svg:first-child {
         height: 20px;
-        /* width: 20px; */
     }
-    .float-right h2{
+
+    .float-right h2 {
         font-size: 20px;
     }
-    .float-right p{
+
+    .float-right p {
         font-size: 12px;
     }
-    form div input{
+
+    form div input {
         padding-top: 12px;
         padding-bottom: 12px;
         font-size: 16px;
     }
-    form div input::placeholder{
+
+    form div input::placeholder {
         font-size: 12px;
     }
-    form div svg{
+
+    form div svg {
         width: 16px;
     }
-    .after-button p:first-child{
+
+    .after-button p:first-child {
         font-size: 12px;
     }
-    .after-button p:last-child{
+
+    .after-button p:last-child {
         font-size: 12px;
     }
 }
-

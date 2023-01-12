@@ -1,75 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-body{
+body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 
 
-.main-section{
+.main-section {
     display: flex;
     max-width: 1920px;
-    margin: auto;
     height: 937px;
+    margin: auto;
 }
 
-.float-left{
+.float-left {
     height: 100%;
-    position: relative;
     width: 47%;
-    background: url(../Images/Rectangle\ 445.png);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.float-left div:first-child{
-    position: relative;
-}
-
-
-.float-left div:first-child{
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-image: linear-gradient(rgba(6, 21, 59, 0.842), rgba(7, 24, 66, 0.829));
+    background-color: rgba(10, 28, 75, 1);
 }
 
 
 
 
-.float-left svg:first-child{
-    top: 300px;
-    position: absolute;
+.float-left svg:first-child {
     width: 10px;
     height: 25px;
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    /* border: 1px solid red; */
+    margin-top: 260px;
 }
 
 
+.float-left svg:last-child {
+    width: 100px;
+    height: 280px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    margin-top: 100px;
+}
 
 
 /*  */
 /*  */
 /*  */
+
 
 
 
 
 .float-right {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
     height: 100%;
     flex: 1;
     background-color: rgba(245, 245, 245, 1);
@@ -234,18 +226,15 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*  */
+/*  */
+/*  */
+/*  */
+/* responsive starting */
+/*  */
+/*  */
+/*  */
+/*  */
 
 
 
@@ -264,12 +253,14 @@ a {
 
 
 @media (max-width:700px) {
-    .main-section{
+    .main-section {
         flex-direction: column;
     }
-    .float-left{
-        height: 50%;
+
+    .float-left {
         width: 100%;
+        height: 50%;
+        
     }
 
     .float-right {
@@ -279,18 +270,44 @@ a {
     .float-right h2 {
         margin-top: 20px;
     }
-    body{
-    background-color: rgba(245, 245, 245, 1);
-    }
-    .after-button{
-        padding-bottom: 15px;
-    }
     .float-left svg:first-child{
-        top: 120px;
-        height: 25px;
-    }    
+        margin-top: 40px;
+        height: 23px;
+    }
+    .float-left svg:last-child{
+        margin-top: 30px;
+        height: 270px;
+        margin-bottom: 40px;
+    }
     .after-button{
         padding-bottom: 15px;
+    }
+}
+
+
+@media (max-width:1230px) {
+    .float-right form {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+@media (max-width:450px) {
+    .float-left svg:first-child{
+        margin-top: 30px;
+        max-width: 100px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width:300px) {
+    .float-left svg:last-child{
+        margin-top: 0px;
     }
 }
 
@@ -301,11 +318,10 @@ a {
 
 
 
+
+
+
 @media (max-width:400px) {
-    .float-left svg:first-child{
-        height: 20px;
-        /* width: 20px; */
-    }
     .float-right h2{
         font-size: 20px;
     }
